@@ -1,0 +1,26 @@
+{
+    "name": "bittextures/bittextures",
+    "description": "bittextures.com",
+    "authors": [
+        {
+            "name": "Nemanja Marijanovic",
+            "email": "n.marijanovic@hotmail.com",
+            "role": "Developer"
+        }
+    ],
+    "autoload": {
+        "files": [
+            "app/Support/Helpers/Global/functions.php"
+        ],
+    	"psr-4": {
+    		"App\\": "./app",
+    		"Core\\": "./app/Core",
+    		"Exceptions\\": "./app/Exceptions",
+    		"Http\\": "./app/Http",
+    		"Models\\": "./app/Models",
+    		"Presenters\\": "./app/Presenters",
+    		"Providers\\": "./app/Providers",
+    		"Support\\": "./app/Support"
+    	}
+    }
+}
